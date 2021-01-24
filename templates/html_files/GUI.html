@@ -1,0 +1,65 @@
+{% extends 'Header.html' %}
+{%block index %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h2>File template</h2>
+
+
+  
+  <form class="modal-content animate" action="file" method='POST'>
+    {% csrf_token %}
+    
+
+    <div class="container">
+      <label for="username"><b>Enter full path of CSV file with name</b></label>
+      <input type="text" placeholder="Enter File Path" name="datafile" required>
+      <label for="username"><b>Enter full path of template file with name</b></label>
+      <input type="text" placeholder="Enter File Path" name="datafile1" required>
+<br>
+<br>
+      <input type="checkbox" id="Executive_Summary" name="Executive_Summary" value="ES">
+      <label for="Executive_Summary">Executive Summary</label><br>
+    <br>
+      <input type="checkbox" id="Company_Overview" name="Executive_Summary" value="CO">
+      <label for="Company_Overview"> Company Overview</label><br>
+     <br>
+      <input type="checkbox" id="MARKET_ANALYSIS" name="Executive_Summary" value="MA">
+      <label for="MARKET_ANALYSIS"> Market Analysis</label><br><br>
+    
+      <input type="checkbox" id="Appendix" name="Executive_Summary" value="A">
+      <label for="Appendix"> Appendix</label><br><br>
+
+      <select name="dropdown" required> 
+       
+                <option value="">None</option>
+                <option value="10">PDF</option>
+                <option value="20">DOCX</option>
+                
+        </select>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+      
+    </div>
+
+    
+
+    
+    <div>
+      {% for message in messages %}
+      <h3>{{message}}</h3>
+      {% endfor %}
+    </div>
+    
+  </form>
+  {% include "footer.html" %}  
+
+  
+</div>
+{% endblock %}
