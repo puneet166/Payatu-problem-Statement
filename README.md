@@ -4,8 +4,7 @@
 ## Table Of Contents
 1. [About project](#desc)
 2. [How to use the project and prerequisite for running the project in the local machine.](#desc1)
-3. [Check .setting desc2)
-4. [Check project's snaps](#desc3)
+3. [Check project's snaps](#desc3)
 
 <a name="desc"></a>
 ## About The Project.
