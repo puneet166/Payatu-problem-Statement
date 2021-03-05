@@ -15,14 +15,14 @@
 
 
 * How to create account as a admin?
-1. go to project folder and open command prompt make sure you are in project directory run the given command -``` python manage.py createsuperuser ```
+1. Go to project folder and open command prompt make sure you are in project directory run the given command -``` python manage.py createsuperuser ```
 2. Then enter the Username of your choice and press enter.
 3. Then enter the Email address and press enter.(It can be left blank)
 4. Enter password and confirm password then hit enter.
 5. Now we can login into our Django Admin page by running the command python manage.py runserver . Then, open a Web browser and go to        “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ and then enter the same Username and Password.
   
  * How to upload new template by the admin?
-  1. after login as a admin 
+  1. After login as a admin 
   2. Click uploadfile button in left hand side on admin deskboard.
   3. Click on add button then add file.
   
@@ -30,22 +30,22 @@
   Make sure uploded file by the admin is docx file only.
   
 * Login and registeration of User.
-before generate the template user must be login first.
-* how to signup normal user?
- 1. go to home page
+Before generate the template user must be login first.
+* How to signup normal user?
+ 1. Go to home page
  2. Click on registeration button and fill the form.
- 3. after sucessfully register you redirect on login page and login by username or password.
+ 3. After sucessfully register you redirect on login page and login by username or password.
  
 Note- All generated file save into media folder of your project directory.
 
 <a name="desc1"></a>
 ## How to use the project and prerequisite for running the project in the local machine.
-1. open command promt.
-2. go to your project clone directory.
+1. Open command promt.
+2. Go to your project clone directory.
 3. Run the command is-``` docker-composer build ```.
 4. After run sucessfully without error run one more command of docker-composer that is ``` docker-composer up```.
 5. Then open your brower and go to on this link - localhost:8000.
-6. congrate your project is read to use .
+6. Congrate your project is read to use .
 
 
 
