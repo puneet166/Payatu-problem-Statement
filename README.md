@@ -2,11 +2,21 @@
 
 
 ## Table Of Contents
-1. [About project](#desc)
-2. [How to use the project and prerequisite for running the project in the local machine.](#desc1)
-3. [Check project's snaps](#desc3)
 
+1. [How to use the project and prerequisite for running the project in the local machine.](#desc1)
+2. [About project](#desc)
+
+
+<a name="desc1"></a>
+## How to use the project and prerequisite for running the project in the local machine.
+1. Open command promt.
+2. Go to your project clone directory.
+3. Run the command is-``` docker-composer build ```.
+4. After run sucessfully without error run one more command of docker-composer that is ``` docker-composer up```.
+5. Then open your brower and go to on this link - localhost:8000.
+6. Congrate your project is read to use .
 <a name="desc"></a>
+
 ## About The Project.
 * This project for generate templates at runtime using django framework. 
 * There are two user 1.Admin 2.Normal user 
@@ -38,21 +48,12 @@ Before generate the template user must be login first.
  
 Note- All generated file save into media folder of your project directory.
 
-<a name="desc1"></a>
-## How to use the project and prerequisite for running the project in the local machine.
-1. Open command promt.
-2. Go to your project clone directory.
-3. Run the command is-``` docker-composer build ```.
-4. After run sucessfully without error run one more command of docker-composer that is ``` docker-composer up```.
-5. Then open your brower and go to on this link - localhost:8000.
-6. Congrate your project is read to use .
 
 
 
 
 
-<a name="desc3"></a>
-## [Click here to check some snips of the project for more clarification](https://drive.google.com/file/d/1X_jfxp6_zfAzN-OvaEj_RIVx5l59rB8a/view?usp=sharing)
+
 
 
 
