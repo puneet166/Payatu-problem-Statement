@@ -47,7 +47,7 @@ Before generate the template user must be login first.
  3. After sucessfully register you redirect on login page and login by username or password.
  
 Note- All generated file save into media folder of your project directory.
-
+### Important Note- pdf option disable due to some reason. please test the application on docx file mode.
 
 
 
