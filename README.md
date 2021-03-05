@@ -10,8 +10,8 @@
 ## About The Project.
 * This project for generate templates at runtime using django framework. 
 * There are two user 1.Admin 2.Normal login user 
-** Admin- Admin can upload and generate the templates.
-** Normal login user only generate the templates which uploaded by the admin.
+1. Admin- Admin can upload and generate the templates.
+2. Normal login user only generate the templates which uploaded by the admin.
 
 
 * How to create account as a admin?
