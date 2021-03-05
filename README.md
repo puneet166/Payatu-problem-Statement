@@ -10,16 +10,16 @@
 ## About The Project.
 * This project for generate templates at runtime using django framework. 
 * There are two user 1.Admin 2.Normal login user 
-Admin- Admin can upload and generate the templates.
-Normal login user only generate the templates which uploaded by the admin.
+** Admin- Admin can upload and generate the templates.
+** Normal login user only generate the templates which uploaded by the admin.
 
 
 * How to create account as a admin?
-  go to project folder and open cmd make sure you are in project directory run the given command - python manage.py createsuperuser
-  Then enter the Username of your choice and press enter.
-  Then enter the Email address and press enter.(It can be left blank)
-  enter password and confirm password hit enter.
-  Now we can login into our Django Admin page by running the command python manage.py runserver . Then, open a Web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ and then enter the same Username and Password.
+* go to project folder and open cmd make sure you are in project directory run the given command - python manage.py createsuperuser
+ ** Then enter the Username of your choice and press enter.
+ ** Then enter the Email address and press enter.(It can be left blank)
+ ** enter password and confirm password hit enter.
+ ** Now we can login into our Django Admin page by running the command python manage.py runserver . Then, open a Web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ and then enter the same Username and Password.
   
  * How to upload new template by the admin?
   answer- after login as a admin 
