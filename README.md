@@ -22,9 +22,9 @@
 5. Now we can login into our Django Admin page by running the command python manage.py runserver . Then, open a Web browser and go to        “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ and then enter the same Username and Password.
   
  * How to upload new template by the admin?
-  answer- after login as a admin 
-  1. Click uploadfile button in left hand side on admin deskboard.
-  2. Click on add button then add file.
+  1. after login as a admin 
+  2. Click uploadfile button in left hand side on admin deskboard.
+  3. Click on add button then add file.
   
  Note- This system always take latest uploded file by the admin.This is first and must step otherwise application generate error.
   Make sure uploded file by the admin is docx file only.
