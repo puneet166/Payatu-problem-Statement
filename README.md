@@ -14,7 +14,7 @@
 3. Run the command -``` docker-composer build ```.
 4. After sucessfully running without any error. run one more command that is  ``` docker-composer up```.
 5. Then open your brower and go to the given link - ``` localhost:8000 ```.
-6. Congratulations that your project has been read to use.
+6. Congratulations that your project has been ready to use.
 <a name="desc"></a>
 
 ## About The Project.
